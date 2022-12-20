@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/choice.png" />
+    <title>Mentory | Sign up</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="/Signup/img//logo-white.png" alt="Mentory logo" />
+      </div>
+      <nav class="nav nav--user">
+        <a class="nav__el" href="/login">Log in</a
+        ><a class="nav__el nav__el--cta" href="#">Sign up</a>
+      </nav>
+    </header>
+
+    <!--  -->
+
+    <div class="content">
+      <section class="section section__logo">
+        <img src="img/choice.png" alt="logo image" />
+        <h1 class="main-text">Try to go faster in right way.</h1>
+      </section>
+
+      <section class="section section__login-form">
+        <form class="form form__signup">
+          <div class="form__group">
+            <label class="form__label" for="name">Your name</label
+            ><input
+              class="form__input"
+              id="name"
+              type="text"
+              placeholder=""
+              required=""
+            />
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="email">Email address</label
+            ><input
+              class="form__input"
+              id="email"
+              type="email"
+              placeholder="you@example.com"
+              required=""
+            />
+          </div>
+          <div class="form__group ma-bt-md">
+            <label class="form__label" for="password">Password</label
+            ><input
+              class="form__input"
+              id="password"
+              type="password"
+              placeholder="••••••••"
+              required=""
+              minlength="8"
+            />
+          </div>
+          <div class="form__group ma-bt-md">
+            <label class="form__label" for="passwordConfirm"
+              >Confirm password</label
+            ><input
+              class="form__input"
+              id="passwordConfirm"
+              type="password"
+              placeholder="••••••••"
+              required=""
+              minlength="8"
+            />
+          </div>
+          <div class="form__group">
+            <button class="btn btn--green">Sign up</button>
+            <a class="login-link" href="">Have an account? Login</a>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!--  -->
+
+    <div class="footer">
+      <div class="footer__logo">
+        <img src="/Signup/img/logo-green.png" alt="Mentory logo" />
+      </div>
+      <ul class="footer__nav">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Download apps</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; All rights reserved.</p>
+    </div>
+  </body>
+</html>
